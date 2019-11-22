@@ -12,6 +12,13 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  transition: all 1s linear;
+  position: absolute;
+}
+
+.polaroid:hover {
+  transform: rotate(33deg) scale(1.4);
+  z-index: auto;
 }
 
 .polaroid > img {
