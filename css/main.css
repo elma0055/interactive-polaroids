@@ -33,14 +33,14 @@ figure:first-child {
   z-index: 1;
 }
 
-figure:nth-child(2nd) {
+figure:nth-child(2) {
   top: 9em;
   left: 30%;
   transform: rotate(3deg);
   z-index: 2344;
 }
 
-figure:nth-child(3rd) {
+figure:nth-child(3) {
   top: 6em;
   left: 40%;
   transform: rotate(29deg);
@@ -48,7 +48,10 @@ figure:nth-child(3rd) {
 }
 
 figcaption {
-
+  position: absolute;
+  bottom: 1em;
+  left: 5.5em;
+  text-align: center;
 }
 
 .polaroid:hover {
